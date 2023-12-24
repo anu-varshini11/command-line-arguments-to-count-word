@@ -24,10 +24,7 @@ Developed by: M B ANU VARSHINI
 RegisterNumber: 23008712 
 
 import sys
-if len(sys.argv) != 2:
-    print("Usage: python script.py code.txt")
-    sys.exit(1)
-filename = sys.argv[1]
+filename = "code.txt"
 with open(filename, 'r') as file:
     words = file.read().split()
     total_words = len(words)
@@ -37,7 +34,7 @@ print("Word frequency in file:", word_counts)
 ```
 ### OUTPUT:
 
-
+![Output_1](o1.png)
 
 ## RESULT:
 Thus the program is written to find the word count from the contents of a file using command line arguments.
